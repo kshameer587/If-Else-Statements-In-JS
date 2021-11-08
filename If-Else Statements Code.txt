@@ -1,0 +1,56 @@
+
+
+						Even Numbers in JS
+
+
+// var val = +prompt("Enter any number");
+//     if(val%2 == 0)
+//     {
+//         alert("this is even number");
+//     }
+//     else if(val%2 != 0)
+//     {
+//         alert("this is not a even number")
+//     }
+
+
+
+						Only males should drive a car
+    
+
+    // var age = +prompt("enter your age");
+    // var gender = prompt("enter your gender");
+    // if(age>=18 && gender =="Male")
+    // {
+    //     alert("you are eligible to drive");
+    // }
+    // else
+    // {
+    //     alert("you are not eligible to drive");
+    // }
+
+
+						Enter your marks
+
+
+var marks = +prompt("enter your marks");
+    if(marks>=100)
+    {
+        alert("wrong input");
+    }
+    else if(marks>=80)
+    {
+        alert("grade A+")
+    }
+    else if(marks>=70 && marks<=79)
+    {
+         alert("grade B");
+    }
+     else if(marks>=60 && marks<=69)
+    {
+        alert("grade C");
+    }
+    else if(marks<60)
+    {
+        alert("failed");
+    }
